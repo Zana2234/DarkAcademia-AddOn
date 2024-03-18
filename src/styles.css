@@ -57,7 +57,7 @@ header a {
   height: auto;
   margin-left: 50px;
 }
-.about-section {
+.grid-1 {
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -241,10 +241,7 @@ footer a {
   h4 {
     margin-bottom: 0;
   }
-  .about-section-content {
-    margin-top: 40px;
-    text-align: center;
-  }
+
   .grid-1,
   .grid-2,
   .grid-3,
@@ -253,7 +250,8 @@ footer a {
     grid-gap: 10px;
   }
   .grid-1 {
-    padding: 25px;
+    padding: 120px;
+    text-align: center;
   }
 
   .grid-3,
@@ -268,17 +266,15 @@ footer a {
   .book-card {
     max-width: 95%;
     margin: 10px auto;
+    text-align: center;
   }
 
   .book-card img {
     max-width: 100%;
   }
 
-  section.image-gallery {
-    padding: 20px;
-  }
-
   section.book-recommendations {
     padding: 20px;
+    text-align: center;
   }
 }
