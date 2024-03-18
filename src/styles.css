@@ -16,18 +16,20 @@ header {
   text-align: center;
 }
 .header-text {
-  padding: 115px 0;
+  padding: 80px 0;
 }
 header h3 {
   color: var(--secundary-text-color);
   font-size: 50px;
   font-family: Trirong, serif;
+  margin: 0px;
 }
 header h1 {
   color: var(--secundary-text-color);
   font-size: 150px;
   font-family: var(--title-font-family);
   font-weight: bold;
+  margin: 0px;
 }
 header h2 {
   color: var(--secundary-text-color);
@@ -42,20 +44,26 @@ header a {
   border-radius: 10px;
   color: black;
   text-decoration: none;
+  margin: 0px;
 
   font-family: Trirong, serif;
 }
 .container {
   margin: 100px;
 }
-.img-fluid {
+.img {
   border-radius: 10px;
   width: 80%;
   height: auto;
   margin-left: 50px;
 }
 .about-section {
-  padding: 82px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 .about-section-content {
   padding: 0;
@@ -64,10 +72,19 @@ header a {
 .about-section-content h1 {
   color: lightgrey;
   font-size: 20px;
+  font-family: Trirong, serif;
+}
+.about-section-content h2 {
+  font-family: Trirong, serif;
+  font-size: 30px;
 }
 .about-section-content h3 {
   font-size: 20px;
   color: grey;
+  font-family: Trirong, serif;
+}
+.about-section-content p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*section more-info*/
@@ -80,9 +97,11 @@ header a {
   color: #262425;
 }
 .more-info h4 {
-  color: #27204450;
+  color: #656263;
   font-weight: 700;
+  font-size: 30px;
   letter-spacing: 0.1em;
+  margin-bottom: 0px;
 }
 .more-info h2 {
   color: #424146;
@@ -146,7 +165,13 @@ header a {
   font-size: 70px;
   margin-top: 0;
 }
-
+.books h4 {
+  color: #656263;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  margin-bottom: 0px;
+}
 .books h5 {
   color: #424146;
 }
